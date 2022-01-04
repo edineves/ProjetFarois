@@ -210,7 +210,8 @@ HOME
     background-color:transparent;
     margin: 0% 40% 1% 40%;    
     position: relative;
-    border-radius: 5%;   
+    border-radius: 5%;
+    border: transparent;   
 }
 
 .botao:active {
