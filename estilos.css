@@ -4,7 +4,7 @@
 }
 
 .cabecalho {
-  background:linear-gradient(rgb(22, 94, 209),rgb(234, 236, 243));  
+  background:linear-gradient(rgb(191, 208, 235),var(--azul-claro));  
   font-family: 'Poppins', sans-serif; 
   font-size: 1em;  
   display: flex;
@@ -37,8 +37,8 @@
     font-family: 'Poppins', sans-serif; 
     content: "#";
     color:var(--cinza-escuro);
-    font-weight:900;
-    font-size: 1em;
+    font-weight:bolder;
+    font-size: 1..1em;
     margin-right: 6%;
     align-items: center;
 
@@ -64,7 +64,7 @@ MAIN
 
 .principal {   
     font-family: 'Poppins', sans-serif;
-    background-color: var(--branco); 
+    background-color: var( --azul-claro); 
     padding: auto;
     display: grid;
     gap: 5px;
@@ -96,7 +96,7 @@ MAIN
 
 .principal__texto{
     font-family: 'Poppins', sans-serif; 
-    background-color: var(--branco);
+    background-color: var(--azul-claro);
     width: 97%;
     box-sizing: border-box;  
     text-align: center;
@@ -279,7 +279,7 @@ FOOTER
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background:linear-gradient(rgb(234, 236, 243),rgb(20, 96, 218) );
+    background:linear-gradient(var(--azul-claro),rgb(94, 142, 219) );
     width: 100%;
     height: 150px; 
   }
