@@ -241,8 +241,9 @@ HOME
 
 
 .mapa{
+    background-color: var(--azul-claro);
     width: 30%;
-    height: 20%;
+    height: auto;
     display: inline-block;
     margin-left: 33%;
     border: 1px;
