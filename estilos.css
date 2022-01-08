@@ -140,6 +140,7 @@ PAGINA PRINCIPAL
     align-items: center;
     background: scroll;
     width: 100%;
+    margin-bottom: 20%;
 }
 
 
@@ -339,10 +340,10 @@ HOME
 
 .mapa {
     background-color: var(--azul-claro);
-    width: 30%;
-    height: auto;
+    width: 55%;
+    height: 4%;
     display: inline-block;
-    margin-left: 33%;
+    margin-left: 20%;
     border: 1px;
     border-radius: 1%;
 }
