@@ -4,7 +4,7 @@
 }
 
 .cabecalho {
-  background:linear-gradient(rgb(22, 94, 209),rgb(234, 236, 243));  
+  background:linear-gradient(rgb(191, 208, 235),var(--azul-claro));  
   font-family: 'Poppins', sans-serif; 
   font-size: 1em;  
   display: flex;
@@ -17,8 +17,7 @@
 .cabecalho__logo {
     font-family: 'Poppins', sans-serif;
     font: bold; 
-    font-size: 1.3em;
-    
+    font-size: 1.3em;   
 }
 
 .cabecalho__menu {
@@ -37,11 +36,10 @@
     font-family: 'Poppins', sans-serif; 
     content: "#";
     color:var(--cinza-escuro);
-    font-weight:900;
-    font-size: 1em;
+    font-weight:bolder;
+    font-size: 1..1em;
     margin-right: 6%;
     align-items: center;
-
 } 
 
 .cabecalho__link:hover {
@@ -59,12 +57,90 @@
 }
 
 /*
-MAIN
+PAGINA PRINCIPAL
 */
+.cabecalho__1 {
+    background:linear-gradient(rgb(127, 158, 211), rgb(221, 224, 230));  
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1em;  
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 10px;
+    height: 70px;
+  }  
 
-.principal {   
+.principal__1 {
+    background-image: url(imgs/Fundos/fundos4.jpg);
+    background-size: cover;
+    background-position:  35% 60%;
+    position: flex; 
+}
+
+.principal__titulo__1 {    
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.principal__texto__1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.02rem;
+    background-color: transparent;
+    width: 95%;
+    box-sizing: border-box;  
+    text-align: center;
+    padding-left: 10%;
+    padding-right:10%;     
+}
+
+.principal__imagem__1 {   
+    image-resolution:initial;
+    opacity:80%;
+    overflow: auto;
+    padding-left: 10%;
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 1%;
+    margin-top: 2%;    
+    margin-left: 10%; 
+}
+
+.contato__titulo__1 {    
+    font-family: 'Poppins', sans-serif; 
+    color: aliceblue;    
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contato__1 {
     font-family: 'Poppins', sans-serif;
-    background-color: var(--branco); 
+    font-size: .9em; 
+    color: aliceblue;   
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.rodape__1 {
+    font-size: 1em;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:linear-gradient(var(--azul-claro),rgb(119, 160, 224) );
+    width: 100%;
+    height: 150px; 
+  }
+
+/*
+DEMAIS PAGINAS
+*/
+.principal { 
+    font-family: 'Poppins', sans-serif;
+    background-color: var( --azul-claro); 
     padding: auto;
     display: grid;
     gap: 5px;
@@ -78,16 +154,14 @@ MAIN
 }
 
 .principal__imagem{   
-    image-resolution: inherit;
-    background-color: var(--branco);
+    image-resolution:inherit;
     width: 40%;
     box-sizing: border-box;
     border-radius: 1%;    
     margin-left: 30%; 
 }
 .principal__imagem1{   
-   
-    background-color: var(--branco);
+    background-color: var(--azul-claro);
     width: 95%;
     box-sizing: border-box;
     border-radius: 1%;    
@@ -96,7 +170,7 @@ MAIN
 
 .principal__texto{
     font-family: 'Poppins', sans-serif; 
-    background-color: var(--branco);
+    background-color: var(--azul-claro);
     width: 97%;
     box-sizing: border-box;  
     text-align: center;
@@ -104,6 +178,7 @@ MAIN
     padding-right:10%;     
 }
 .principal__mapavideo{
+    background-color: var(--azul-claro);
     font-family:'Poppins', sans-serif;
     font-size: 0.7em;
     margin-left: 2%;
@@ -142,7 +217,7 @@ MAIN
 CONTATO
 */
 
-.contato__titulo {
+.contato__titulo {    
     font-family: 'Poppins', sans-serif;     
     display: flex;
     flex-direction: column;
@@ -236,8 +311,9 @@ HOME
 
 
 .mapa{
+    background-color: var(--azul-claro);
     width: 30%;
-    height: 20%;
+    height: auto;
     display: inline-block;
     margin-left: 33%;
     border: 1px;
@@ -279,7 +355,7 @@ FOOTER
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background:linear-gradient(rgb(234, 236, 243),rgb(20, 96, 218) );
+    background:linear-gradient(var(--azul-claro),rgb(119, 160, 224) );
     width: 100%;
     height: 150px; 
   }
