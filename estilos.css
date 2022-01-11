@@ -176,6 +176,7 @@ DEMAIS PAGINAS
 .principal__imagem1 {
     background-color: var(--azul-claro);
     width: 95%;
+    height: auto;
     box-sizing: border-box;
     border-radius: 1%;
     margin: 2%;
@@ -201,8 +202,7 @@ DEMAIS PAGINAS
 .carrosel {
     width: 100%;
     height: auto;
-    overflow: hidden;
-    margin: auto;
+    position: relative;
 }
 
 .carrosel ul {
@@ -213,30 +213,9 @@ DEMAIS PAGINAS
 }
 
 .carrosel li {
-    position: relative;
+    position: static;
     left: 0%;
-    /*animation: slide 50s alternate infinite;*/
-}
-
-@keyframes slide {
-    0% {
-        left: 0%
-    }
-    30% {
-        left: 0%
-    }
-    40% {
-        left: -60%
-    }
-    60% {
-        left: -60%
-    }
-    90% {
-        left: -90%
-    }
-    100% {
-        left: 0%
-    }
+    /* animation: slide 60s alternate infinite; */
 }
 
 
