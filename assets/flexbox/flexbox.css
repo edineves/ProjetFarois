@@ -1,0 +1,9 @@
+.cabecalho .containder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__titulo {}
+
+.cabecalho__nava {}
