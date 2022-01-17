@@ -22,14 +22,20 @@
 }
 
 .rodapePrincipal {
+    align-items: center;
     display: flex;
+    width: 100%;
 }
 
-.rodapePrincipal .container {
-    display: flex;
-    justify-content: space-between;
+.rodapePrincipal .rodapeContainer {
     align-items: center;
-    background: scroll;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    margin-bottom: 20%;
+}
+
+.rodape__RedesSociais {
+    align-items: center;
+    padding-left: 10%;
+    width: 5%;
 }
