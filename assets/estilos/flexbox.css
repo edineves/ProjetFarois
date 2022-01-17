@@ -1,0 +1,15 @@
+.cabecalhoPrincipal {
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal__nav {}
+
+.cabecalhoPrincipal__nav__link {}

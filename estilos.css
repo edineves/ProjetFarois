@@ -69,21 +69,6 @@ PAGINA PRINCIPAL
     background-position: 74% 15%;
 }
 
-.cabecalho__1 {
-    background: transparent;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1px 10px;
-    height: 70px;
-}
-
-.principal__1 {
-    background: transparent;
-}
-
 .principal__titulo__1 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
