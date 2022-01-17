@@ -1,13 +1,102 @@
-body {}
+.cabecalhoPrincipal {
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 5% 25% 1% 5%;
+}
 
-.container {}
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.cabecalhoPrincipal {}
+.cabecalhoPrincipal__nav {
+    display: flex;
+    margin-left: 5%;
+}
 
-.cabecalhoPrincipal-titulo {}
+.cabecalhoPrincipal__nav__link {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
 
-.cabecalhoPrincipal-titulo a {}
+.rodapePrincipal {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
 
-.cabecalhoPrincipal-nav-link {}
+.rodapePrincipal .rodapeContainer {
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 6% 5% 6%;
+}
 
-.conteudoPrincipal {}
+.rodape__RedesSociais {
+    align-items: center;
+    margin-left: 10%;
+    width: 3%;
+}
+
+.principal__titulo__1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 15% 5%;
+    display: flex;
+}
+
+.principal__texto__1 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.02rem;
+    background: unset;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.principal__imagem__1 {
+    image-resolution: initial;
+    opacity: 80%;
+    overflow: auto;
+    padding-left: 10%;
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 1%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.contato__titulo__1 {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contato__1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.rodape__1 {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: scroll;
+    width: 100%;
+    margin-bottom: 20%;
+}
