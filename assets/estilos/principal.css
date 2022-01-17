@@ -1,56 +1,46 @@
-.principal {
-    background-image: url(imgs/Fundos/fundos4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 74% 15%;
-}
-
-
-}
 .cabecalhoPrincipal {
     background: transparent;
     font-family: 'Poppins', sans-serif;
     display: flex;
     padding: 5% 25% 1% 5%;
 }
+
 .cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .cabecalhoPrincipal__nav {
     display: flex;
     margin-left: 5%;
 }
+
 .cabecalhoPrincipal__nav__link {
     display: flex;
     justify-content: space-between;
     padding: 10%;
 }
+
 .rodapePrincipal {
     align-items: center;
     display: flex;
     width: 100%;
 }
+
 .rodapePrincipal .rodapeContainer {
     align-items: center;
     justify-content: space-around;
     width: 100%;
     margin: 0 6% 5% 6%;
 }
+
 .rodape__RedesSociais {
     align-items: center;
     margin-left: 10%;
     width: 3%;
 }
-body__1 {
-    background-image: url(imgs/Fundos/fundos4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 74% 15%;
-}
+
 .principal__titulo__1 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
@@ -58,6 +48,7 @@ body__1 {
     margin: 15% 5%;
     display: flex;
 }
+
 .principal__texto__1 {
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -69,6 +60,7 @@ body__1 {
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .principal__imagem__1 {
     image-resolution: initial;
     opacity: 80%;
@@ -80,6 +72,7 @@ body__1 {
     margin-top: 2%;
     margin-left: 10%;
 }
+
 .contato__titulo__1 {
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
@@ -89,6 +82,7 @@ body__1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+
 .contato__1 {
     font-family: 'Poppins', sans-serif;
     font-size: .9em;
@@ -96,6 +90,7 @@ body__1 {
     text-align: center;
     margin-bottom: 1.25rem;
 }
+
 .rodape__1 {
     font-size: 2em;
     display: flex;
