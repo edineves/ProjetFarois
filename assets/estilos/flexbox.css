@@ -22,19 +22,20 @@
 }
 
 .rodapePrincipal {
-    display: flex;
     align-items: center;
-}
-
-.rodapePrincipal .container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
 }
 
-.redessociais1 {
-    size: 10%;
+.rodapePrincipal .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.rodapeRedesSociais {
+    align-items: center;
+    padding-left: 10%;
     width: 5%;
-    padding-left: 2%;
 }
