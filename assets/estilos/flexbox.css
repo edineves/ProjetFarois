@@ -1,7 +1,8 @@
 .cabecalhoPrincipal {
     background: transparent;
     font-family: 'Poppins', sans-serif;
-    padding: 10%;
+    display: flex;
+    padding: 5% 25% 1% 5%;
 }
 
 .cabecalhoPrincipal .container {

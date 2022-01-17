@@ -73,7 +73,8 @@ PAGINA PRINCIPAL
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     font-weight: bolder;
-    margin-left: 2%;
+    margin: 15% 5%;
+    display: flex;
 }
 
 .principal__texto__1 {
