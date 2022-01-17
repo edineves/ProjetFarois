@@ -20,3 +20,16 @@
     justify-content: space-between;
     padding: 10%;
 }
+
+.rodapePrincipal {
+    display: flex;
+}
+
+.rodapePrincipal .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: scroll;
+    width: 100%;
+    margin-bottom: 20%;
+}
