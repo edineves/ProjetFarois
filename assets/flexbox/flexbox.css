@@ -1,13 +1,10 @@
-.cabecalho .container {
+.cabecalho {
     background: transparent;
+}
+
+.cabecalho .container {
+    display: flexbox;
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1px 10px;
-    height: 70px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -15,6 +12,6 @@
 .cabecalho__titulo {}
 
 .cabecalho__nav {
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
 }
