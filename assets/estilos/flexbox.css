@@ -1,7 +1,7 @@
 .cabecalhoPrincipal {
     background: transparent;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    padding: 10%;
 }
 
 .cabecalhoPrincipal .container {
@@ -10,6 +10,13 @@
     justify-content: space-between;
 }
 
-.cabecalhoPrincipal__nav {}
+.cabecalhoPrincipal__nav {
+    display: flex;
+    margin-left: 5%;
+}
 
-.cabecalhoPrincipal__nav__link {}
+.cabecalhoPrincipal__nav__link {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
