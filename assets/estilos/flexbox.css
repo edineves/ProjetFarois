@@ -23,13 +23,18 @@
 
 .rodapePrincipal {
     display: flex;
+    align-items: center;
 }
 
 .rodapePrincipal .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background: scroll;
     width: 100%;
-    margin-bottom: 20%;
+}
+
+.redessociais1 {
+    size: 10%;
+    width: 5%;
+    padding-left: 2%;
 }
