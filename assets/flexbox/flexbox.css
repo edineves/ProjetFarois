@@ -6,4 +6,7 @@
 
 .cabecalho__titulo {}
 
-.cabecalho__nava {}
+.cabecalho__nav {
+    display: flex;
+    justify-content: space-between;
+}
