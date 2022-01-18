@@ -1,42 +1,50 @@
-.principal1{
-
+.corpo {
+    width: 100%;
+    background-color: var(--azul-claro);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 45% 70%;
 }
 
 .cabecalhoPrincipal {
     font-family: 'Poppins', sans-serif;
+    color: rgb(39, 36, 34);
     width: 100%;
     height: 40px;
-    background:transparent;
+    background: linear-gradient(var(--azul-claro), rgb(119, 160, 224));
     margin-bottom: 20%;
 }
+
 .cabecalhoPrincipal__nav {
     font-family: 'Poppins', sans-serif;
-    background-color: transparent;    
-    position:absolute;
-    justify-content: space-around;      
+    color: rgb(39, 36, 34);
+    background-color: transparent;
+    position: absolute;
+    justify-content: space-around;
     align-items: center;
 }
 
 .cabecalhoPrincipal__nav__link {
     font-family: 'Poppins', sans-serif;
-    color: rgb(216, 208, 200);    
+    color: rgb(39, 36, 34);
     font-size: 1em;
-   display: inline;
+    display: inline;
 }
 
 .principal__titulo__1 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
-    display: flex;  
-    flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
     height: 15%;
 }
 
 .principal__texto__1 {
-    color: rgb(226, 240, 233);
+    color: rgb(40, 44, 42);
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;  
+    font-size: 1rem;
     font-weight: 150;
     width: 100%;
     text-align: center;
@@ -44,7 +52,7 @@
     padding-right: 10%;
 }
 
-.principal__imagem__1 {    
+.principal__imagem__1 {
     opacity: 80%;
     overflow: unset;
     padding-left: 10%;
@@ -58,14 +66,14 @@
 .contato__1 {
     font-family: 'Poppins', sans-serif;
     font-size: .9em;
-    color: aliceblue;
+    color: rgb(66, 116, 160);
     text-align: center;
     margin-bottom: 1.25rem;
 }
 
 .contato__titulo__1 {
     font-family: 'Poppins', sans-serif;
-    color: aliceblue;
+    color: rgb(38, 60, 78);
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
@@ -87,7 +95,7 @@
     display: flex;
 }
 
- .rodapeContainer {
+.rodapeContainer {
     align-items: center;
     justify-content: space-around;
     width: 100%;
