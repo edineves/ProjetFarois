@@ -14,9 +14,8 @@
 
 .body {
     width: 100%;
-    background-color: var(--branco);
-    background-image: url("fundo2.jpg");
-    background-size: cover;
+    background-color: var(--azul-claro);
+    background-i background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 45% 70%;
