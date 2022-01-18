@@ -1,32 +1,22 @@
-.cabecalho1 {
-    background-color: darkgrey;
-}
+.principal1{
 
+}
 .cabecalhoPrincipal {
     width: 70%;
-    height: 100px;
-    background: transparent;
+    background: red;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-around;       
+    justify-content: center;
+    height: 50px;
 }
-
- .container {  
-    width: 90%; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-}
-
 .cabecalhoPrincipal__nav {
-    display: flex;  
-    width: 70%;
-    height: 20px;
+    background-color: rgb(192, 174, 171);
+    flex-direction: row;  
+    width: 100%;
+    justify-content: center;
 }
 
 .cabecalhoPrincipal__nav__link {
     display: flex;
-
     justify-content: space-around;
     padding: 2%;
     width: 100%;
@@ -38,12 +28,12 @@
     font-weight: bold;
     display: flex;  
     flex-wrap: wrap; 
-    height: 15  %;
+    height: 15%;
 }
 
 .principal__texto__1 {
+    color: rgb(155, 187, 171);
     font-family: 'Poppins', sans-serif;
-    color: black;
     font-size: 1.02rem;  
     width: 100%;
     text-align: center;
@@ -51,20 +41,9 @@
     padding-right: 10%;
 }
 
-.contato__titulo__1 {
-    font-family: 'Poppins', sans-serif;
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-.principal__imagem__1 {
-    image-resolution: initial;
+.principal__imagem__1 {    
     opacity: 80%;
-    overflow: auto;
+    overflow: unset;
     padding-left: 10%;
     width: 45%;
     box-sizing: border-box;
@@ -81,26 +60,6 @@
     margin-bottom: 1.25rem;
 }
 
-.principal__titulo__1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    margin: 15% 5%;
-    display: flex;
-}
-
-.principal__texto__1 {
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-size: 1.02rem;
-    background: unset;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 .contato__titulo__1 {
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
@@ -111,13 +70,6 @@
     padding-bottom: 1rem;
 }
 
-.contato__1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: .9em;
-    color: aliceblue;
-    text-align: center;
-    margin-bottom: 1.25rem;
-}
 
 .rodapePrincipal {
     align-items: center;
@@ -144,4 +96,3 @@
     margin-left: 10%;
     width: 3%;
 }
-
