@@ -4,24 +4,19 @@
 
 .cabecalhoPrincipal {
     width: 100%;
-    height: 100px;
-    background: red;
+    height: 40px;
+    background:transparent;
 }
 .cabecalhoPrincipal__nav {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(192, 174, 171);
-    flex-direction: row-reverse;
-    position:absolute;
-    width: 100%;
-    justify-content: center;
+    background-color: transparent;    
+    position:absolute;  
 }
 
 .cabecalhoPrincipal__nav__link {
     font-family: 'Poppins', sans-serif;
-    color: tomato;
-    justify-content: space-around;
-    padding: 5%;
-    width: 30%;
+    color: rgb(238, 226, 224);
+    justify-content: space-between;   
 }
 
 .principal__titulo__1 {
