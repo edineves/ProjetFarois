@@ -3,40 +3,41 @@
 }
 
 .cabecalhoPrincipal {
+    font-family: 'Poppins', sans-serif;
     width: 100%;
-    height: 100px;
-    background: red;
+    height: 40px;
+    background:transparent;
+    margin-bottom: 20%;
 }
 .cabecalhoPrincipal__nav {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(192, 174, 171);
-    flex-direction: row-reverse;
+    background-color: transparent;    
     position:absolute;
-    width: 100%;
-    justify-content: center;
+    justify-content: space-around;      
+    align-items: center;
 }
 
 .cabecalhoPrincipal__nav__link {
     font-family: 'Poppins', sans-serif;
-    color: tomato;
-    justify-content: space-around;
-    padding: 5%;
-    width: 30%;
+    color: rgb(216, 208, 200);    
+    font-size: 1em;
+   display: inline;
 }
 
 .principal__titulo__1 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 100;
     display: flex;  
     flex-wrap: wrap; 
     height: 15%;
 }
 
 .principal__texto__1 {
-    color: rgb(155, 187, 171);
+    color: rgb(226, 240, 233);
     font-family: 'Poppins', sans-serif;
-    font-size: 1.02rem;  
+    font-size: 1rem;  
+    font-weight: 150;
     width: 100%;
     text-align: center;
     padding-left: 10%;
@@ -72,7 +73,6 @@
     padding-bottom: 1rem;
 }
 
-
 .rodapePrincipal {
     align-items: center;
     display: flex;
@@ -86,6 +86,7 @@
     margin: 15% 5%;
     display: flex;
 }
+
  .rodapeContainer {
     align-items: center;
     justify-content: space-around;
