@@ -12,11 +12,10 @@
 }
 
  .container {  
-    width: 90%;
-    height: 100px; 
+    width: 90%; 
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between; 
 }
 
 .cabecalhoPrincipal__nav {
@@ -35,17 +34,17 @@
 
 .principal__titulo__1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    display: block;  
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;  
     flex-wrap: wrap; 
+    height: 15%;
 }
 
 .principal__texto__1 {
     font-family: 'Poppins', sans-serif;
     color: black;
-    font-size: 1.02rem;
-    background: unset;
+    font-size: 1.02rem;  
     width: 100%;
     text-align: center;
     padding-left: 10%;
