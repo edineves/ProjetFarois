@@ -1,25 +1,27 @@
 .principal1{
 
 }
+
 .cabecalhoPrincipal {
-    width: 70%;
+    width: 100%;
+    height: 100px;
     background: red;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
-    height: 50px;
 }
 .cabecalhoPrincipal__nav {
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(192, 174, 171);
-    flex-direction: row;  
+    flex-direction: row-reverse;
+    position:absolute;
     width: 100%;
     justify-content: center;
 }
 
 .cabecalhoPrincipal__nav__link {
-    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: tomato;
     justify-content: space-around;
-    padding: 2%;
-    width: 100%;
+    padding: 5%;
+    width: 30%;
 }
 
 .principal__titulo__1 {
