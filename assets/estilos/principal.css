@@ -1,3 +1,10 @@
+.body__1 {
+    background-image: url(imgs/principal/fundos3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 74% 15%;
+}
 .cabecalhoPrincipal {
     background: transparent;
     font-family: 'Poppins', sans-serif;
