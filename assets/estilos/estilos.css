@@ -35,7 +35,7 @@
 .cabecalho__link {
     font-family: 'Poppins', sans-serif;
     content: "#";
-    color: var(--cinza-escuro);
+    color: black;
     font-weight: bolder;
     font-size: 1.1em;
     margin-right: 6%;
