@@ -63,6 +63,7 @@ DEMAIS PAGINAS
 
 .principal {
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     background-color: var(--azul-claro);
     padding: auto;
     display: grid;
@@ -72,8 +73,8 @@ DEMAIS PAGINAS
 .principal__titulo {
     background-color: var( --azul-claro);
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
-    font-weight: bolder;
+    font-size: 1rem;
+    font-weight: 700;
     margin-left: 2%;
 }
 
@@ -232,11 +233,11 @@ HOME
 
 .mapa {
     background-color: var(--azul-claro);
-    width: 55%;
+    width: 45%;
     height: 4%;
     display: inline-block;
-    margin-left: 20%;
-    border: 1px;
+    margin-left: 25%;
+    border: 5px;
     border-radius: 1%;
 }
 
